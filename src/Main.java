@@ -8,7 +8,7 @@ public class Main {
         shop.tax = 2.564;
         shop.quantity = 5;
         System.out.println("I want to buy " + shop.quantity + " shirts!");
-        shop.total = shop.quantity * (shop.price + shop.tax);
+        shop.total = shop.total = shop.price * shop.quantity * shop.tax;
         System.out.println("Price = " + shop.price + " $");
         System.out.println("Tax = " + shop.tax + " $");
         System.out.println("Total cost with tax is = " + shop.total + " $");
